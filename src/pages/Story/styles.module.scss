@@ -1,0 +1,103 @@
+.main {
+    >.information_part {
+        >.header_part {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 32px;
+            margin-top: 16px;
+
+            >div {
+                span {
+                    padding: 7px 16px;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0.06em;
+                }
+
+                > :nth-child(1) {
+                    font-weight: 400;
+                    color: #999999;
+                }
+
+                > :nth-child(2) {
+                    color: #333333;
+                }
+            }
+        }
+
+        >.img_part {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+
+            >div {
+                display: flex;
+                justify-content: right;
+                align-items: end;
+                background-image: url('../../assets/images/banner.png');
+                width: 1120px;
+                height: 436px;
+            }
+        }
+
+        >.lookBook_part {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 32px;
+
+            >div {
+                display: flex;
+                column-gap: 24px;
+
+                >div {
+                    display: flex;
+                    padding: 15px 16px;
+                    column-gap: 20px;
+                    border: 1px solid #F0F0F0;
+                    border-radius: 4px;
+
+                    >div {
+                        display: flex;
+                        flex-direction: column;
+
+                        >:nth-child(1) {
+                            font-size: 8px;
+                            line-height: 8px;
+                            letter-spacing: 0.06em;
+                            color: #999999;
+                        }
+
+                        >:nth-child(2) {
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 16px;
+                            letter-spacing: 0.06em;
+                            color: #333333;
+                        }
+                    }
+                }
+            }
+        }
+
+        >.text_part {
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >p {
+                width: 662px;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 40px;
+                letter-spacing: 0.06em;
+                color: #333333;
+                text-align: center;
+            }
+        }
+    }
+
+}
